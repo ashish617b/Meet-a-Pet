@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Registration Form</title>
+</head>
+
+<style>
+    input {
+        width: 10%;
+        margin-bottom: 10px;
+        background: rgba(0,0,0,0.3);
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-size: 13px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 4px;
+        box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+        -webkit-transition: box-shadow .5s ease;
+        -moz-transition: box-shadow .5s ease;
+        -o-transition: box-shadow .5s ease;
+        -ms-transition: box-shadow .5s ease;
+        transition: box-shadow .5s ease;
+    }
+    input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+</style>
+
+<body>
+<div align="right">
+    <form action="home.html">
+            <pre>
+
+            <button type="submit" style="height: 50px; width: 100px;">Back</button>
+
+            </pre>
+    </form>
+</div>
+<h3 align="center"><font color="red"> Username Already Exists </font></h3>
+<h1>Meet A Pet</h1>
+<div align="center">
+    <h1>Registration Form</h1>
+    <form method="post" action="register">
+        <h5></h5> Email ID (UserName)
+        <input type="email" name="email"  required="required"  >
+        <h5></h5> Password
+        <input type="password" name="password"  required="required"  >
+        <h5></h5>   First Name
+        <input type="text" name="firstName"  required="required" >
+        <h5></h5> Last Name
+        <input type="text" name="lastName" required="required"  >
+        <h5></h5> Address Line 1
+        <input type="text" name="add1" required="required" >
+        <h5></h5> Address Line 2
+        <input type="text" name="add2" required="required" >
+        <h5></h5> Contact
+        <input type="number" name="contact" required="required" >
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Register</button>
+    </form>
+</div>
+</body>
+</html>
